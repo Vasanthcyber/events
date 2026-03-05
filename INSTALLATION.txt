@@ -1,0 +1,74 @@
+EVENT MANAGEMENT SYSTEM - QUICK INSTALLATION GUIDE
+=================================================
+
+STEP 1: COPY FILES
+------------------
+Copy the entire 'event_management_system' folder to:
+- XAMPP: C:/xampp/htdocs/
+- WAMP: C:/wamp/www/
+- LAMP: /var/www/html/
+
+STEP 2: CREATE DATABASE
+-----------------------
+1. Open phpMyAdmin (http://localhost/phpmyadmin)
+2. Create new database named: event_management
+3. Import the database.sql file from the project folder
+
+STEP 3: CONFIGURE
+-----------------
+1. Open includes/config.php
+2. Update database credentials if needed:
+   - DB_HOST: localhost
+   - DB_USER: root
+   - DB_PASS: (your password)
+   - DB_NAME: event_management
+
+STEP 4: SET PERMISSIONS
+-----------------------
+Make sure assets/images/ folder has write permissions
+
+STEP 5: ACCESS SYSTEM
+---------------------
+Open browser and go to:
+http://localhost/event_management_system/
+
+DEFAULT LOGIN CREDENTIALS
+-------------------------
+Admin:
+Email: admin@eventmanager.com
+Password: admin123
+
+FEATURES
+--------
+✓ Admin Dashboard with Statistics
+✓ Hall Management (Add/Edit/Delete)
+✓ Vendor Management (Add/Activate/Deactivate)
+✓ Booking Management (Confirm/Cancel)
+✓ User Registration & Login
+✓ Browse & Book Halls
+✓ View Vendors by Service Type
+✓ Booking Tracking
+✓ Professional UI Design
+
+SYSTEM REQUIREMENTS
+-------------------
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Modern web browser
+
+TROUBLESHOOTING
+---------------
+1. Database connection error?
+   → Check config.php settings
+   
+2. Can't upload images?
+   → Check folder permissions
+   
+3. Blank page?
+   → Enable PHP error reporting
+
+SUPPORT
+-------
+Check README.md for detailed documentation
+
+Enjoy your Event Management System!

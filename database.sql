@@ -75,7 +75,7 @@ CREATE TABLE IF NOT EXISTS booking_vendors (
 
 -- Insert default admin user (password: admin123)
 INSERT INTO users (name, email, password, user_type) VALUES 
-('Super Admin', 'superadmin@eventmanager.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
+('Admin', 'admin@eventmanager.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin');
 
 -- Sample Halls Data
 INSERT INTO halls (name, description, capacity, location, price_per_day, amenities, image) VALUES
